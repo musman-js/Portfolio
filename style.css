@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====Navbar Styling===== */
+.mynavbar{
+    background-color: black;
+}
+.list{
+    margin-left: 80px;
+}
+
+.lists .custom-margin{
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-brand {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}X
+
+/* Style the toggle button */
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler-main:hover{
+    background-color: purple;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    text-decoration: underline purple;
+    color: blueviolet;
+}
+
+.navbar-toggler span {
+    color: #fff;
+    display: block;
+}
+
+.navbar-toggler-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+
+
+/* =====Toggle Button Styling==== */
+
+/* Hide the form by default */
+#myForm {
+    display: none;
+}
+
+.navbar .toggle-button {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========Media Querry for responsive====== */
+
+@media only screen and (max-width :991px ){
+    .list{
+        margin-left: 0px;
+    }
+
+    .lists .custom-margin{
+       margin: 0;
+    }
+}
+
+@media only screen and (max-width :318px ){
+    .logoimg{
+        margin-left: 0;
+    }
+}
