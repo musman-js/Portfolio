@@ -1,34 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* =====Navbar Styling===== */
-.mynavbar{
+.mynavbar {
     background-color: black;
 }
-.list{
+
+.list {
     margin-left: 80px;
 }
 
-.lists .custom-margin{
+.lists .custom-margin {
     margin-left: 40px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
+
 .navbar-brand {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: white;
 }
 
 .nav-link {
     margin-left: 60px;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-}X
+}
 
 /* Style the toggle button */
 
@@ -40,7 +47,7 @@
     margin-left: auto;
 }
 
-.navbar-toggler-main:hover{
+.navbar-toggler-main:hover {
     background-color: purple;
 }
 
@@ -48,6 +55,7 @@
     color: white;
     font-weight: 700;
     transition: 0.5s;
+    font-size: 17px;
 }
 
 .nav-link:hover {
@@ -68,46 +76,42 @@
     margin: 6px 0;
 }
 
+.close-span {
+    color: #fff;
+}
 
-
-/* =====Toggle Button Styling==== */
-
-/* Hide the form by default */
-#myForm {
-    display: none;
+.cross-span {
+    font-size: 25px;
 }
 
 .navbar .toggle-button {
     position: absolute;
     top: 0;
     right: 20px;
-  }
+}
 
+/* Media Querry for responsive */
 
-
-
-
-
-
-
-
-
-
-
-/* =========Media Querry for responsive====== */
-
-@media only screen and (max-width :991px ){
-    .list{
+@media only screen and (max-width :991px) {
+    .list {
         margin-left: 0px;
     }
 
-    .lists .custom-margin{
-       margin: 0;
+    .lists .custom-margin {
+        margin: 0;
+    }
+
+    .nav-link{
+        margin-left: 10px;
+        font-size: 17px;
+        margin-bottom: 5px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
-@media only screen and (max-width :318px ){
-    .logoimg{
+@media only screen and (max-width :318px) {
+    .logoimg {
         margin-left: 0;
     }
 }
