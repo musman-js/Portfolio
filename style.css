@@ -137,7 +137,9 @@
 /* =======section 1 Styling======== */
 .sec-1-main {
     /* background-color: #efefef; */
-    background-image: url('Untitled\ design.png');
+    background-image: url('background.png');
+    background-size: cover;
+   background-position-x: right;
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -164,4 +166,62 @@
     font-weight: 400;
     margin-top: 100px;
     margin-bottom: 45px;
+}
+
+/* ===Media Querry=== */
+@media (max-width : 700px ){
+    .sec-1-main{
+        background-image: url('background-2.png');
+    }
+}
+
+@media (max-width : 1399px) and (min-width :  992px){
+    .sec-1 h3{
+        margin-top: 0;
+    }
+}
+
+@media (max-width : 991px){
+    .sec-1-main{
+       padding-top: 0px;
+       padding-bottom: 70px;
+       background-image: url('backgroung-2.png');
+    }
+    
+    .coding-gif{
+      width: 450px;
+    }
+
+    .sec-1 h1{
+        font-size: 50px;
+    }
+
+    .sec-1 h2{
+        font-size: 30px;
+    }
+
+    .sec-1 h3{
+        font-size: 23px;
+    }
+}
+
+@media (max-width : 450px){
+    .sec-1-main{
+        background-image: url('backgroung-2.png');
+    }
+    .coding-gif{
+        width: 100%;
+    }
+
+    .sec-1 h1{
+        font-size: 45px;
+    }
+
+    .sec-1 h2{
+        font-size: 27px;
+    }
+
+    .sec-1 h3{
+        font-size: 20px;
+    }
 }
