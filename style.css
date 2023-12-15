@@ -24,7 +24,7 @@
 }
 
 .navbar-brand:hover {
-    color:#F1CCC2 ;
+    color: #F1CCC2;
 }
 
 .nav-link {
@@ -51,7 +51,7 @@
 }
 
 .nav-link:hover {
-    text-decoration: underline purple;
+    text-decoration: underline 3px purple;
     color: blueviolet;
 }
 
@@ -95,8 +95,9 @@
 
 .hireme:hover {
     color: #fff9 !important;
-    text-decoration: underline #fff9;
+    text-decoration: underline 3px #fff9;
 }
+
 
 /* Media Querry for responsive */
 
@@ -132,7 +133,15 @@
     }
 }
 
+@media (max-width : 1199px) and (min-width : 992px) {
+    .nav-link i {
+        font-size: 15px;
+    }
 
+    .nav-link {
+        margin-left: 25px;
+    }
+}
 
 
 /* =======section 1 Styling======== */
@@ -141,8 +150,8 @@
     background-image: url('background.png');
     background-size: cover;
     background-position-x: right;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 .sec-1 h1 {
@@ -231,4 +240,69 @@
     .sec-1 h3 {
         font-size: 20px;
     }
+}
+
+@media (max-width : 991px) and (min-width : 768px) {
+    .sec-1 h3 {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+/* =======section 2 Styling======== */
+.sec-2 {
+    margin-top: 75px;
+}
+
+.sec-2 h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-2 h1 {
+    font-family: 'Lato';
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.sec-2-para {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+
+@media (max-width : 567px) {
+    .sec-2-para {
+        font-size: 15px;
+        margin-left: 10px;
+
+    }
+}
+
+@media(max-width : 370px) {
+    .sec-2 h1 {
+        font-size: 24px;
+    }
+
+    .sec-2-para {
+        font-size: 13px;
+    }
+}
+
+.sec-2-btn{
+    margin-top: 38px;
+    text-align: right;
+}
+
+.sec-2-btn a {
+    text-decoration: none;
+    padding: 10px 45px 10px 45px;
+    margin-bottom: 50px;
+    border: 2px solid black;
 }
