@@ -6,7 +6,7 @@
 
 /* =====Navbar Styling===== */
 .mynavbar {
-    background-color: black;
+    background-color: #2a2c40;
 }
 
 .lists .custom-margin {
@@ -17,14 +17,14 @@
 }
 
 .navbar-brand {
-    color: #fff;
+    color: #F1CCC2;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 25px;
 }
 
 .navbar-brand:hover {
-    color: white;
+    color:#F1CCC2 ;
 }
 
 .nav-link {
@@ -41,10 +41,6 @@
 
 .navbar-nav {
     margin-left: auto;
-}
-
-.navbar-toggler-main:hover {
-    background-color: purple;
 }
 
 .navbar-nav .nav-link {
@@ -89,21 +85,26 @@
 .hireme {
     border: 1px solid white;
     border-radius: 5px;
-    background-color: #2a2c39;
+    background-color: black;
     border: none;
     text-decoration: none;
     text-align: center;
     font-size: 17px;
-    color: #fff9 !important;
+    color: wheat !important;
 }
 
 .hireme:hover {
-    color: blueviolet !important;
+    color: #fff9 !important;
+    text-decoration: underline #fff9;
 }
 
 /* Media Querry for responsive */
 
 @media only screen and (max-width :991px) {
+    #navbarNav {
+        background-color: #2a2c39;
+    }
+
     .list {
         margin-left: 0px;
     }
@@ -139,7 +140,7 @@
     /* background-color: #efefef; */
     background-image: url('background.png');
     background-size: cover;
-   background-position-x: right;
+    background-position-x: right;
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -162,66 +163,72 @@
 
 .sec-1 h3 {
     font-family: 'Poppins';
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 400;
     margin-top: 100px;
     margin-bottom: 45px;
 }
 
 /* ===Media Querry=== */
-@media (max-width : 700px ){
-    .sec-1-main{
+@media (max-width : 700px) {
+    .sec-1-main {
         background-image: url('background-2.png');
     }
 }
 
-@media (max-width : 1399px) and (min-width :  992px){
-    .sec-1 h3{
+@media (max-width : 1399px) and (min-width : 992px) {
+    .sec-1 h3 {
         margin-top: 0;
+        font-size: 22px;
     }
 }
 
-@media (max-width : 991px){
-    .sec-1-main{
-       padding-top: 0px;
-       padding-bottom: 70px;
-       background-image: url('backgroung-2.png');
-    }
-    
-    .coding-gif{
-      width: 450px;
+@media (max-width : 991px) {
+    .sec-1-main {
+        padding-top: 0px;
+        padding-bottom: 70px;
+        background-image: url('backgroung-2.png');
     }
 
-    .sec-1 h1{
+    .coding-gif {
+        width: 450px;
+    }
+
+    .sec-1 h1 {
         font-size: 50px;
     }
 
-    .sec-1 h2{
+    .sec-1 h2 {
         font-size: 30px;
     }
 
-    .sec-1 h3{
+    .sec-1 h3 {
         font-size: 23px;
+    }
+
+    .hireme {
+        background-color: black;
     }
 }
 
-@media (max-width : 450px){
-    .sec-1-main{
+@media (max-width : 450px) {
+    .sec-1-main {
         background-image: url('backgroung-2.png');
     }
-    .coding-gif{
+
+    .coding-gif {
         width: 100%;
     }
 
-    .sec-1 h1{
+    .sec-1 h1 {
         font-size: 45px;
     }
 
-    .sec-1 h2{
+    .sec-1 h2 {
         font-size: 27px;
     }
 
-    .sec-1 h3{
+    .sec-1 h3 {
         font-size: 20px;
     }
 }
