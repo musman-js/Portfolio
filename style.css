@@ -7,6 +7,14 @@
 /* =====Navbar Styling===== */
 .mynavbar {
     background-color: #2a2c40;
+    transition: 0.5s;
+}
+
+@media(max-width : 991px){
+    .mynavbar{
+        position: fixed;
+        width: 100%;
+    }
 }
 
 .lists .custom-margin {
@@ -366,6 +374,108 @@
 
 
 
+/* =====Section 3 Styling===== */
+.skills-container {
+    max-width: 1000px;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    font-family: 'Poppins';
+    color: #10268b;
+    font-size: 20px;
+}
+
+.skill-margin {
+    margin-top: 55px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color: #009bdf;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.skill-bar span {
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+@media (max-width : 2300px) and (min-width : 1799px) {
+    .skills-container {
+        margin-left: 3em;
+        max-width: 1200px;
+    }
+}
+
+@media(max-width : 1700px) and (min-width : 1400px) {
+    .skills-container {
+        margin-left: 8em;
+    }
+}
+
+@media(max-width : 1399px) and (min-width : 1200px) {
+    .skills-container {
+        margin-left: 5em;
+    }
+}
+
+@media(max-width : 575px) {
+    .skill-label {
+        font-size: 18px;
+    }
+
+    .skill-bar span {
+        font-size: 18px;
+    }
+
+    .skills-container {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 30px;
+        padding-bottom: 39px;
+    }
+}
+
+@media(max-width : 400px) {
+    .skill-label {
+        font-size: 16px;
+    }
+
+    .skill-bar span {
+        font-size: 16px;
+    }
+}
 
 
 
@@ -449,19 +559,19 @@
         margin-right: 15px;
     }
 
-    .fb{
-       margin-left: -20px;
+    .fb {
+        margin-left: -20px;
     }
 
     .folow-me {
         font-size: 25px;
     }
 
-    .created{
+    .created {
         font-size: 21px;
     }
-    
-    .madeby{
+
+    .madeby {
         font-size: 21px;
     }
 }
